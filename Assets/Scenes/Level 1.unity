@@ -154,7 +154,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dc82ebd0060572841b8273cc99bd81e7, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -768,19 +768,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4279572765670320107, guid: f95cb9253332f0e4590b7ab3ea5b8f69, type: 3}
       propertyPath: m_Name
-      value: Sparty_Idle_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4279572765670320107, guid: f95cb9253332f0e4590b7ab3ea5b8f69, type: 3}
-      propertyPath: m_TagString
-      value: Player
+      value: Sparty
       objectReference: {fileID: 0}
     - target: {fileID: 4279572765670320110, guid: f95cb9253332f0e4590b7ab3ea5b8f69, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.585
+      value: 2.53
       objectReference: {fileID: 0}
     - target: {fileID: 4279572765670320110, guid: f95cb9253332f0e4590b7ab3ea5b8f69, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.363
+      value: 1.24
       objectReference: {fileID: 0}
     - target: {fileID: 4279572765670320110, guid: f95cb9253332f0e4590b7ab3ea5b8f69, type: 3}
       propertyPath: m_LocalPosition.z
