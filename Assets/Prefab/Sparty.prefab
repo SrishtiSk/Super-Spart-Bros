@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  jumpForce: 600
+  jumpForce: 400
   playerHealth: 1
   whatIsGround:
     serializedVersion: 2
