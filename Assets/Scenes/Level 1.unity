@@ -426,6 +426,7 @@ GameObject:
   m_Component:
   - component: {fileID: 285839656}
   - component: {fileID: 285839658}
+  - component: {fileID: 285839657}
   m_Layer: 0
   m_Name: Background Camera
   m_TagString: Untagged
@@ -447,6 +448,23 @@ Transform:
   m_Father: {fileID: 519420032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &285839657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285839655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fc6bde01469c7b4badee5362f191d96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  downsample: 1
+  blurSize: 0.2
+  blurIterations: 1
+  blurType: 0
+  blurShader: {fileID: 4800000, guid: f9d5fa183cd6b45eeb1491f74863cd91, type: 3}
 --- !u!20 &285839658
 Camera:
   m_ObjectHideFlags: 0
