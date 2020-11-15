@@ -246,6 +246,7 @@ MonoBehaviour:
   loopWaypoints: 1
   stunnedSFX: {fileID: 8300000, guid: 21e9a43186be24b49a36a915c7ab4ea5, type: 3}
   attackSFX: {fileID: 8300000, guid: 080bf8af3e73cf940a8e75c79e4863c9, type: 3}
+  _myWaypointIndex: 0
 --- !u!82 &5671063828313271412
 AudioSource:
   m_ObjectHideFlags: 0
