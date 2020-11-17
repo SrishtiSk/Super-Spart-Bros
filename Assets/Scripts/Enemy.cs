@@ -215,6 +215,7 @@ public class Enemy : MonoBehaviour {
 			// provide the player with feedback that enemy is stunned
 			playSound(stunnedSFX);
 			_animator.SetTrigger("Stunned");
+
 			
 			// stop moving
 			_rigidbody.velocity = new Vector2(0, 0);
